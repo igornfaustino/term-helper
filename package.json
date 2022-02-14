@@ -1,0 +1,11 @@
+{
+  "name": "term-helper",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:igornfaustino/term-helper.git",
+  "author": "igornfaustino <igor@nfaustino.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.5.5"
+  }
+}
