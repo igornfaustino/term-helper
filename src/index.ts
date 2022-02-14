@@ -1,1 +1,3 @@
-console.log("hello word 2");
+import { default as words } from "./words.json";
+
+console.log(words);
