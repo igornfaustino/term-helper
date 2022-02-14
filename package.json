@@ -5,7 +5,13 @@
   "repository": "git@github.com:igornfaustino/term-helper.git",
   "author": "igornfaustino <igor@nfaustino.com>",
   "license": "MIT",
+  "scripts": {
+    "dev:watch": "ts-node-dev --respawn --transpile-only ./src/index.ts",
+    "dev": "ts-node ./src/index.ts"
+  },
   "devDependencies": {
+    "ts-node": "^10.5.0",
+    "ts-node-dev": "^1.1.8",
     "typescript": "^4.5.5"
   }
 }
