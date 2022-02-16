@@ -1,4 +1,4 @@
-import { default as words } from "./words.json";
+import { default as words } from "../resources/words.json";
 
 export class WordFilterUseCase {
   WORDS = words;

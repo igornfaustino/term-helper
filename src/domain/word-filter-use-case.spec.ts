@@ -1,4 +1,4 @@
-import { WordFilterUseCase } from "./word";
+import { WordFilterUseCase } from "./word-filter-use-case";
 
 const excludeLetters = "tua";
 const includeLetters = "r";
