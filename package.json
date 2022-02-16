@@ -1,18 +1,22 @@
 {
   "name": "term-helper",
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": "git@github.com:igornfaustino/term-helper.git",
-  "author": "igornfaustino <igor@nfaustino.com>",
-  "license": "MIT",
+  "private": true,
   "scripts": {
-    "dev:watch": "ts-node-dev --respawn --transpile-only ./src/index.ts",
-    "dev": "ts-node ./src/index.ts"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "12.0.10",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
   },
   "devDependencies": {
-    "@types/node": "^17.0.17",
-    "ts-node": "^10.5.0",
-    "ts-node-dev": "^1.1.8",
-    "typescript": "^4.5.5"
+    "@types/node": "17.0.18",
+    "@types/react": "17.0.39",
+    "eslint": "8.9.0",
+    "eslint-config-next": "12.0.10",
+    "typescript": "4.5.5"
   }
 }
